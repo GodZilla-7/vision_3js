@@ -24,7 +24,7 @@ const camera = new THREE.PerspectiveCamera(
 camera.position.set(180,180,200);
 
 const loader = new GLTFLoader();
-loader.load("../range_rover.glb", (gltf) => {
+loader.load("/range_rover.glb", (gltf) => {
   scene.add(gltf.scene);
 });
 
